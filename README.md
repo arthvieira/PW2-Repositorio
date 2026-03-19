@@ -1,5 +1,5 @@
 # Repositorio PW2
-Arthur Ferreira de Oliveira <br><br>
+<hr>
 <b>Este repositório contém projetos desenvolvidos para a disciplina PROGRAMÇÃO WEB 2 (PW2).</b>
 
 <h3><b>Conteúdos:</b></h3>
