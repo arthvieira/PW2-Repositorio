@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    background-color: lightblue;
+    width: 150px;
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+}
+
+aside {
+    width: 150px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bem Vindo a Meu Site</h1>
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#somos">Quem somos</a></li>
+            <li><a href="#lucasnetto">Lucas Netto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao nosso site!</h2>
+            <p>Esta é a seção inicial.</p>
+        </section>
+    </main>
+
+    <aside>
+        Conteúdo lateral
+    </aside>
+</div>
+
+<footer>
+    <p>Rodapé do site</p>
+</footer>
+
+</body>
+</html>
